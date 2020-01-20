@@ -71,6 +71,13 @@ footer{
     /* background-color: red; */
 }
 
+.hideit {
+    
+ }
+
+.row-footer{
+    display: none;
+}    
 
 /* content  */
 .title-style {
@@ -99,7 +106,7 @@ footer{
   }
 
 
-  label {
+  .label {
     color:grey;
     font-weight: normal;
 }   
@@ -148,11 +155,6 @@ footer{
 }
 
 
-
-
-
-
-
 /* used for testing */
 .bordert{
     border:1px solid #000;
@@ -187,6 +189,12 @@ Small devices (landscape phones, 576px and up)*/
         margin-top: 10px;
         /* background-color: blue; */
     }
+    .hideit {
+        display: none;
+     }
+     .row-footer{
+        display: block;
+    }    
    
  } 
 
